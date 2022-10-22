@@ -1,0 +1,22 @@
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* LIST */
+ul{
+    display: flex;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+/* BUTTON */
+button{
+    outline:none;
+    border:none;
+    padding:10px 30px;
+    cursor: pointer;
+}
